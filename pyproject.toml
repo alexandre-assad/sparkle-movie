@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sparkle-movie"
+version = "0.1.0"
+description = ""
+authors = ["alexandre-assad <alexandre.assad@laplateforme.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyspark = "^3.5.5"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+matplotlib = "^3.10.1"
+notebook = "^7.4.0"
+ipykernel = "^6.29.5"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
